@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "serialize.h": "c",
+        "piezoapi.h": "c"
+    }
+}
