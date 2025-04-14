@@ -8,3 +8,5 @@ waveform, amplitude, and frequency. `example.c` demonstrates this. <br>
 
 `serializeMessage()` takes the waveform characteristics and breaks it down into a packet of 4 bytes and stores it into the buffer
 passed in. This buffer should then be transmitted in order with SPI to the Piezo Pusher. See example files. <br> <br>
+
+<img width="464" alt="image" src="https://github.com/user-attachments/assets/6186724e-7b5a-45b8-9451-aed5b8b2462f" />
