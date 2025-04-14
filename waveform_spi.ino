@@ -1,6 +1,24 @@
 #include <SPI.h>
 #include "piezoAPI.h"
 
+/*
+
+    Slave select: 10
+    CLK: Pin 13
+    MOSI: Pin 11
+
+
+ * Example Input Strings for Parsing:
+ *  - "VOLT:5000"            → DC voltage, amplitude only
+ *  - "SIN:3000:100"         → Sine wave, amplitude + frequency
+ *  - "RCT:4000:200"         → Rectangle wave, amplitude + frequency
+ *  - "OFF"                  → Turns output off (amplitude = 0, frequency = 0)
+ 
+*/
+
+
+
+
 // Pin for the slave select (SS) line
 const int slaveSelectPin = 10;
 
