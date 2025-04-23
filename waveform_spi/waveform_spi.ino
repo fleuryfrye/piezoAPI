@@ -1,5 +1,4 @@
 #include <SPI.h>
-#include "piezoAPI.h"
 
 /*
 
@@ -21,10 +20,6 @@
 
 // Pin for the slave select (SS) line
 const int slaveSelectPin = 10;
-
-// Message to send
-const char* message = "RCT:1000:1000";
-
 
 char msg[50];
 
